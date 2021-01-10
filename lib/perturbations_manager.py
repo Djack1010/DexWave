@@ -2,7 +2,7 @@
 import os
 import logging
 from yapsy.PluginManager import PluginManager
-from perturbation_interface import IPerturbation
+from lib.perturbation_interface import IPerturbation
 
 class PerturbationsManager:
   def __init__(self, perturbations_path):

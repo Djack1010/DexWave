@@ -2,7 +2,7 @@
 import logging
 import os
 import secrets
-from smali_api import SmaliAPI
+from .smali_api import SmaliAPI
 
 class Obfuscation:
   # input_dex_path: directory path
